@@ -12,3 +12,14 @@ void ArrayWith(string[] arrayone, string[] arraytwo)
         }
     }
 }
+void PrintArray(string[] array)
+{
+    Console.WriteLine("-Результат");
+    for (int i = 0; i < array.Length; i++)
+    {
+        Console.Write($" {array[i]} ");
+    }
+
+}
+ArrayWith(arrayone, arraytwo);
+PrintArray(arraytwo);
